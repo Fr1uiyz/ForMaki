@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jigsaw Puzzle</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Jigsaw Puzzle</h1>
+    <div class="image-selection">
+      <label for="image-select">Choose an image:</label>
+      <select id="image-select">
+        <option value="images/image1.jpg">Image 1</option>
+        <option value="images/image2.jpg">Image 2</option>
+        <option value="images/image3.jpg">Image 3</option>
+        <option value="images/image4.jpg">Image 4</option>
+      </select>
+      <button id="load-button">Load Image</button>
+    </div>
+    <div id="puzzle-container">
+    </div>
+    <button id="shuffle-button">Shuffle</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
